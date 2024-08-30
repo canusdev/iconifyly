@@ -1,0 +1,394 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+// **************************************************************************
+// IconLibraryGenerator
+// **************************************************************************
+
+// iconifyly Dart Copyright (c) 2024, Mustafa US. All rights reserved.
+// This code is licensed under MIT license (see LICENSE file for details)
+
+import 'package:flutter/widgets.dart';
+import 'package:iconifyly/icons/material-symbols.icon.dart';
+import 'package:iconifyly/icons/material-symbols-light.icon.dart';
+import 'package:iconifyly/icons/ic.icon.dart';
+import 'package:iconifyly/icons/mdi.icon.dart';
+import 'package:iconifyly/icons/ph.icon.dart';
+import 'package:iconifyly/icons/solar.icon.dart';
+import 'package:iconifyly/icons/tabler.icon.dart';
+import 'package:iconifyly/icons/hugeicons.icon.dart';
+import 'package:iconifyly/icons/mingcute.icon.dart';
+import 'package:iconifyly/icons/ri.icon.dart';
+import 'package:iconifyly/icons/bi.icon.dart';
+import 'package:iconifyly/icons/carbon.icon.dart';
+import 'package:iconifyly/icons/iconamoon.icon.dart';
+import 'package:iconifyly/icons/iconoir.icon.dart';
+import 'package:iconifyly/icons/ion.icon.dart';
+import 'package:iconifyly/icons/lucide.icon.dart';
+import 'package:iconifyly/icons/lucide-lab.icon.dart';
+import 'package:iconifyly/icons/uil.icon.dart';
+import 'package:iconifyly/icons/tdesign.icon.dart';
+import 'package:iconifyly/icons/teenyicons.icon.dart';
+import 'package:iconifyly/icons/clarity.icon.dart';
+import 'package:iconifyly/icons/bx.icon.dart';
+import 'package:iconifyly/icons/bxs.icon.dart';
+import 'package:iconifyly/icons/majesticons.icon.dart';
+import 'package:iconifyly/icons/ant-design.icon.dart';
+import 'package:iconifyly/icons/gg.icon.dart';
+import 'package:iconifyly/icons/gravity-ui.icon.dart';
+import 'package:iconifyly/icons/octicon.icon.dart';
+import 'package:iconifyly/icons/memory.icon.dart';
+import 'package:iconifyly/icons/cil.icon.dart';
+import 'package:iconifyly/icons/flowbite.icon.dart';
+import 'package:iconifyly/icons/mynaui.icon.dart';
+import 'package:iconifyly/icons/basil.icon.dart';
+import 'package:iconifyly/icons/pixelarticons.icon.dart';
+import 'package:iconifyly/icons/akar-icons.icon.dart';
+import 'package:iconifyly/icons/ci.icon.dart';
+import 'package:iconifyly/icons/system-uicons.icon.dart';
+import 'package:iconifyly/icons/typcn.icon.dart';
+import 'package:iconifyly/icons/radix-icons.icon.dart';
+import 'package:iconifyly/icons/zondicons.icon.dart';
+import 'package:iconifyly/icons/ep.icon.dart';
+import 'package:iconifyly/icons/circum.icon.dart';
+import 'package:iconifyly/icons/mdi-light.icon.dart';
+import 'package:iconifyly/icons/fe.icon.dart';
+import 'package:iconifyly/icons/eos-icons.icon.dart';
+import 'package:iconifyly/icons/bitcoin-icons.icon.dart';
+import 'package:iconifyly/icons/charm.icon.dart';
+import 'package:iconifyly/icons/prime.icon.dart';
+import 'package:iconifyly/icons/humbleicons.icon.dart';
+import 'package:iconifyly/icons/uiw.icon.dart';
+import 'package:iconifyly/icons/uim.icon.dart';
+import 'package:iconifyly/icons/uit.icon.dart';
+import 'package:iconifyly/icons/uis.icon.dart';
+import 'package:iconifyly/icons/maki.icon.dart';
+import 'package:iconifyly/icons/gridicons.icon.dart';
+import 'package:iconifyly/icons/mi.icon.dart';
+import 'package:iconifyly/icons/weui.icon.dart';
+import 'package:iconifyly/icons/quill.icon.dart';
+import 'package:iconifyly/icons/gala.icon.dart';
+import 'package:iconifyly/icons/lets-icons.icon.dart';
+import 'package:iconifyly/icons/f7.icon.dart';
+import 'package:iconifyly/icons/mage.icon.dart';
+import 'package:iconifyly/icons/marketeq.icon.dart';
+import 'package:iconifyly/icons/fluent.icon.dart';
+import 'package:iconifyly/icons/icon-park-outline.icon.dart';
+import 'package:iconifyly/icons/icon-park-solid.icon.dart';
+import 'package:iconifyly/icons/icon-park-twotone.icon.dart';
+import 'package:iconifyly/icons/icon-park.icon.dart';
+import 'package:iconifyly/icons/jam.icon.dart';
+import 'package:iconifyly/icons/heroicons.icon.dart';
+import 'package:iconifyly/icons/pajamas.icon.dart';
+import 'package:iconifyly/icons/pepicons-pop.icon.dart';
+import 'package:iconifyly/icons/pepicons-print.icon.dart';
+import 'package:iconifyly/icons/pepicons-pencil.icon.dart';
+import 'package:iconifyly/icons/bytesize.icon.dart';
+import 'package:iconifyly/icons/ei.icon.dart';
+import 'package:iconifyly/icons/streamline.icon.dart';
+import 'package:iconifyly/icons/guidance.icon.dart';
+import 'package:iconifyly/icons/fa6-solid.icon.dart';
+import 'package:iconifyly/icons/fa6-regular.icon.dart';
+import 'package:iconifyly/icons/ooui.icon.dart';
+import 'package:iconifyly/icons/rivet-icons.icon.dart';
+import 'package:iconifyly/icons/nimbus.icon.dart';
+import 'package:iconifyly/icons/oui.icon.dart';
+import 'package:iconifyly/icons/formkit.icon.dart';
+import 'package:iconifyly/icons/line-md.icon.dart';
+import 'package:iconifyly/icons/meteocons.icon.dart';
+import 'package:iconifyly/icons/svg-spinners.icon.dart';
+import 'package:iconifyly/icons/openmoji.icon.dart';
+import 'package:iconifyly/icons/twemoji.icon.dart';
+import 'package:iconifyly/icons/noto.icon.dart';
+import 'package:iconifyly/icons/fluent-emoji.icon.dart';
+import 'package:iconifyly/icons/fluent-emoji-flat.icon.dart';
+import 'package:iconifyly/icons/fluent-emoji-high-contrast.icon.dart';
+import 'package:iconifyly/icons/noto-v1.icon.dart';
+import 'package:iconifyly/icons/emojione.icon.dart';
+import 'package:iconifyly/icons/emojione-monotone.icon.dart';
+import 'package:iconifyly/icons/emojione-v1.icon.dart';
+import 'package:iconifyly/icons/fxemoji.icon.dart';
+import 'package:iconifyly/icons/streamline-emojis.icon.dart';
+import 'package:iconifyly/icons/bxl.icon.dart';
+import 'package:iconifyly/icons/logos.icon.dart';
+import 'package:iconifyly/icons/simple-icons.icon.dart';
+import 'package:iconifyly/icons/cib.icon.dart';
+import 'package:iconifyly/icons/fa6-brands.icon.dart';
+import 'package:iconifyly/icons/nonicons.icon.dart';
+import 'package:iconifyly/icons/arcticons.icon.dart';
+import 'package:iconifyly/icons/cbi.icon.dart';
+import 'package:iconifyly/icons/brandico.icon.dart';
+import 'package:iconifyly/icons/entypo-social.icon.dart';
+import 'package:iconifyly/icons/token.icon.dart';
+import 'package:iconifyly/icons/token-branded.icon.dart';
+import 'package:iconifyly/icons/cryptocurrency.icon.dart';
+import 'package:iconifyly/icons/cryptocurrency-color.icon.dart';
+import 'package:iconifyly/icons/flag.icon.dart';
+import 'package:iconifyly/icons/circle-flags.icon.dart';
+import 'package:iconifyly/icons/flagpack.icon.dart';
+import 'package:iconifyly/icons/cif.icon.dart';
+import 'package:iconifyly/icons/gis.icon.dart';
+import 'package:iconifyly/icons/map.icon.dart';
+import 'package:iconifyly/icons/geo.icon.dart';
+import 'package:iconifyly/icons/vscode-icons.icon.dart';
+import 'package:iconifyly/icons/codicon.icon.dart';
+import 'package:iconifyly/icons/file-icons.icon.dart';
+import 'package:iconifyly/icons/devicon.icon.dart';
+import 'package:iconifyly/icons/devicon-plain.icon.dart';
+import 'package:iconifyly/icons/catppuccin.icon.dart';
+import 'package:iconifyly/icons/skill-icons.icon.dart';
+import 'package:iconifyly/icons/unjs.icon.dart';
+import 'package:iconifyly/icons/game-icons.icon.dart';
+import 'package:iconifyly/icons/fad.icon.dart';
+import 'package:iconifyly/icons/academicons.icon.dart';
+import 'package:iconifyly/icons/wi.icon.dart';
+import 'package:iconifyly/icons/healthicons.icon.dart';
+import 'package:iconifyly/icons/medical-icon.icon.dart';
+import 'package:iconifyly/icons/covid.icon.dart';
+import 'package:iconifyly/icons/la.icon.dart';
+import 'package:iconifyly/icons/eva.icon.dart';
+import 'package:iconifyly/icons/dashicons.icon.dart';
+import 'package:iconifyly/icons/flat-color-icons.icon.dart';
+import 'package:iconifyly/icons/entypo.icon.dart';
+import 'package:iconifyly/icons/foundation.icon.dart';
+import 'package:iconifyly/icons/raphael.icon.dart';
+import 'package:iconifyly/icons/icons8.icon.dart';
+import 'package:iconifyly/icons/iwwa.icon.dart';
+import 'package:iconifyly/icons/heroicons-outline.icon.dart';
+import 'package:iconifyly/icons/heroicons-solid.icon.dart';
+import 'package:iconifyly/icons/fa-solid.icon.dart';
+import 'package:iconifyly/icons/fa-regular.icon.dart';
+import 'package:iconifyly/icons/fa-brands.icon.dart';
+import 'package:iconifyly/icons/fa.icon.dart';
+import 'package:iconifyly/icons/fluent-mdl2.icon.dart';
+import 'package:iconifyly/icons/fontisto.icon.dart';
+import 'package:iconifyly/icons/icomoon-free.icon.dart';
+import 'package:iconifyly/icons/subway.icon.dart';
+import 'package:iconifyly/icons/oi.icon.dart';
+import 'package:iconifyly/icons/wpf.icon.dart';
+import 'package:iconifyly/icons/simple-line-icons.icon.dart';
+import 'package:iconifyly/icons/et.icon.dart';
+import 'package:iconifyly/icons/el.icon.dart';
+import 'package:iconifyly/icons/vaadin.icon.dart';
+import 'package:iconifyly/icons/grommet-icons.icon.dart';
+import 'package:iconifyly/icons/whh.icon.dart';
+import 'package:iconifyly/icons/si-glyph.icon.dart';
+import 'package:iconifyly/icons/zmdi.icon.dart';
+import 'package:iconifyly/icons/ls.icon.dart';
+import 'package:iconifyly/icons/bpmn.icon.dart';
+import 'package:iconifyly/icons/flat-ui.icon.dart';
+import 'package:iconifyly/icons/vs.icon.dart';
+import 'package:iconifyly/icons/topcoat.icon.dart';
+import 'package:iconifyly/icons/il.icon.dart';
+import 'package:iconifyly/icons/websymbol.icon.dart';
+import 'package:iconifyly/icons/fontelico.icon.dart';
+import 'package:iconifyly/icons/ps.icon.dart';
+import 'package:iconifyly/icons/feather.icon.dart';
+import 'package:iconifyly/icons/mono-icons.icon.dart';
+import 'package:iconifyly/icons/pepicons.icon.dart';
+
+class iconifyly {
+  static Widget get(
+    String name, {
+    num? height,
+    num? width,
+    num? rotate,
+    Color? color,
+  }) {
+    var items = iconifyly.asMap();
+    var iconDataInfo = name.split('/');
+    var package = iconDataInfo[0];
+    var icon = iconDataInfo[1];
+    return items[package]!(icon,
+        height: height, width: width, rotate: rotate, color: color);
+  }
+
+  static Map<
+      String,
+      Widget Function(
+        String name, {
+        num? height,
+        num? width,
+        num? rotate,
+        Color? color,
+      })> asMap() {
+    return {
+      "material-symbols": MaterialSymbols.get,
+      "material-symbols-light": MaterialSymbolsLight.get,
+      "ic": Ic.get,
+      "mdi": Mdi.get,
+      "ph": Ph.get,
+      "solar": Solar.get,
+      "tabler": Tabler.get,
+      "hugeicons": Hugeicons.get,
+      "mingcute": Mingcute.get,
+      "ri": Ri.get,
+      "bi": Bi.get,
+      "carbon": Carbon.get,
+      "iconamoon": Iconamoon.get,
+      "iconoir": Iconoir.get,
+      "ion": Ion.get,
+      "lucide": Lucide.get,
+      "lucide-lab": LucideLab.get,
+      "uil": Uil.get,
+      "tdesign": Tdesign.get,
+      "teenyicons": Teenyicons.get,
+      "clarity": Clarity.get,
+      "bx": Bx.get,
+      "bxs": Bxs.get,
+      "majesticons": Majesticons.get,
+      "ant-design": AntDesign.get,
+      "gg": Gg.get,
+      "gravity-ui": GravityUi.get,
+      "octicon": Octicon.get,
+      "memory": Memory.get,
+      "cil": Cil.get,
+      "flowbite": Flowbite.get,
+      "mynaui": Mynaui.get,
+      "basil": Basil.get,
+      "pixelarticons": Pixelarticons.get,
+      "akar-icons": AkarIcons.get,
+      "ci": Ci.get,
+      "system-uicons": SystemUicons.get,
+      "typcn": Typcn.get,
+      "radix-icons": RadixIcons.get,
+      "zondicons": Zondicons.get,
+      "ep": Ep.get,
+      "circum": Circum.get,
+      "mdi-light": MdiLight.get,
+      "fe": Fe.get,
+      "eos-icons": EosIcons.get,
+      "bitcoin-icons": BitcoinIcons.get,
+      "charm": Charm.get,
+      "prime": Prime.get,
+      "humbleicons": Humbleicons.get,
+      "uiw": Uiw.get,
+      "uim": Uim.get,
+      "uit": Uit.get,
+      "uis": Uis.get,
+      "maki": Maki.get,
+      "gridicons": Gridicons.get,
+      "mi": Mi.get,
+      "weui": Weui.get,
+      "quill": Quill.get,
+      "gala": Gala.get,
+      "lets-icons": LetsIcons.get,
+      "f7": F7.get,
+      "mage": Mage.get,
+      "marketeq": Marketeq.get,
+      "fluent": Fluent.get,
+      "icon-park-outline": IconParkOutline.get,
+      "icon-park-solid": IconParkSolid.get,
+      "icon-park-twotone": IconParkTwotone.get,
+      "icon-park": IconPark.get,
+      "jam": Jam.get,
+      "heroicons": Heroicons.get,
+      "pajamas": Pajamas.get,
+      "pepicons-pop": PepiconsPop.get,
+      "pepicons-print": PepiconsPrint.get,
+      "pepicons-pencil": PepiconsPencil.get,
+      "bytesize": Bytesize.get,
+      "ei": Ei.get,
+      "streamline": Streamline.get,
+      "guidance": Guidance.get,
+      "fa6-solid": Fa6Solid.get,
+      "fa6-regular": Fa6Regular.get,
+      "ooui": Ooui.get,
+      "rivet-icons": RivetIcons.get,
+      "nimbus": Nimbus.get,
+      "oui": Oui.get,
+      "formkit": Formkit.get,
+      "line-md": LineMd.get,
+      "meteocons": Meteocons.get,
+      "svg-spinners": SvgSpinners.get,
+      "openmoji": Openmoji.get,
+      "twemoji": Twemoji.get,
+      "noto": Noto.get,
+      "fluent-emoji": FluentEmoji.get,
+      "fluent-emoji-flat": FluentEmojiFlat.get,
+      "fluent-emoji-high-contrast": FluentEmojiHighContrast.get,
+      "noto-v1": NotoV1.get,
+      "emojione": Emojione.get,
+      "emojione-monotone": EmojioneMonotone.get,
+      "emojione-v1": EmojioneV1.get,
+      "fxemoji": Fxemoji.get,
+      "streamline-emojis": StreamlineEmojis.get,
+      "bxl": Bxl.get,
+      "logos": Logos.get,
+      "simple-icons": SimpleIcons.get,
+      "cib": Cib.get,
+      "fa6-brands": Fa6Brands.get,
+      "nonicons": Nonicons.get,
+      "arcticons": Arcticons.get,
+      "cbi": Cbi.get,
+      "brandico": Brandico.get,
+      "entypo-social": EntypoSocial.get,
+      "token": Token.get,
+      "token-branded": TokenBranded.get,
+      "cryptocurrency": Cryptocurrency.get,
+      "cryptocurrency-color": CryptocurrencyColor.get,
+      "flag": Flag.get,
+      "circle-flags": CircleFlags.get,
+      "flagpack": Flagpack.get,
+      "cif": Cif.get,
+      "gis": Gis.get,
+      "map": IconMap.get,
+      "geo": Geo.get,
+      "vscode-icons": VscodeIcons.get,
+      "codicon": Codicon.get,
+      "file-icons": FileIcons.get,
+      "devicon": Devicon.get,
+      "devicon-plain": DeviconPlain.get,
+      "catppuccin": Catppuccin.get,
+      "skill-icons": SkillIcons.get,
+      "unjs": Unjs.get,
+      "game-icons": GameIcons.get,
+      "fad": Fad.get,
+      "academicons": Academicons.get,
+      "wi": Wi.get,
+      "healthicons": Healthicons.get,
+      "medical-icon": MedicalIcon.get,
+      "covid": Covid.get,
+      "la": La.get,
+      "eva": Eva.get,
+      "dashicons": Dashicons.get,
+      "flat-color-icons": FlatColorIcons.get,
+      "entypo": Entypo.get,
+      "foundation": Foundation.get,
+      "raphael": Raphael.get,
+      "icons8": Icons8.get,
+      "iwwa": Iwwa.get,
+      "heroicons-outline": HeroiconsOutline.get,
+      "heroicons-solid": HeroiconsSolid.get,
+      "fa-solid": FaSolid.get,
+      "fa-regular": FaRegular.get,
+      "fa-brands": FaBrands.get,
+      "fa": Fa.get,
+      "fluent-mdl2": FluentMdl2.get,
+      "fontisto": Fontisto.get,
+      "icomoon-free": IcomoonFree.get,
+      "subway": Subway.get,
+      "oi": Oi.get,
+      "wpf": Wpf.get,
+      "simple-line-icons": SimpleLineIcons.get,
+      "et": Et.get,
+      "el": El.get,
+      "vaadin": Vaadin.get,
+      "grommet-icons": GrommetIcons.get,
+      "whh": Whh.get,
+      "si-glyph": SiGlyph.get,
+      "zmdi": Zmdi.get,
+      "ls": Ls.get,
+      "bpmn": Bpmn.get,
+      "flat-ui": FlatUi.get,
+      "vs": Vs.get,
+      "topcoat": Topcoat.get,
+      "il": Il.get,
+      "websymbol": Websymbol.get,
+      "fontelico": Fontelico.get,
+      "ps": Ps.get,
+      "feather": Feather.get,
+      "mono-icons": MonoIcons.get,
+      "pepicons": Pepicons.get
+    };
+  }
+}

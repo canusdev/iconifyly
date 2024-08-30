@@ -1,0 +1,18 @@
+import 'package:flutter_svg/flutter_svg.dart';
+import 'package:flutter/material.dart';
+
+class {{.Info.Name| className}} {
+
+static Widget getIcon(String name) {
+    return {{.Info.Name| className}}.names[name]!;
+}
+{{ $info := . }}
+{{ range $index, $element := .Icons}}
+static Widget {{$index|iconName}} = SvgPicture.string('<svg xmlns="http://www.w3.org/2000/svg" width="1em" viewBox="0 0 {{if gt $info.Width 0}}{{$info.Width}}{{else}}24{{end}} {{if gt $info.Height 0}}{{$info.Height}}{{else}}24{{end}}" height="1em" version="1.1">{{$element.Body|html}}</svg>');
+{{ end }}
+static Map<String,Widget> names  =   {
+{{ range $index, $element := .Icons}}
+    "{{$index}}":{{$index|iconName}},{{ end }}
+
+};
+}

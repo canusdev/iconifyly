@@ -1,0 +1,17 @@
+library iconifyly;
+
+import 'package:flutter/material.dart';
+{{ range $index, $element := .}}
+import "package:iconifyly/{{$index}}.dart";{{ end }}
+
+class iconifyly {
+    static Widget icon(String name) {
+        var icons =  iconifyly.asMap();
+        var namepref = name.split("/");
+        return icons[namepref[0]]!(namepref[1]);
+    }
+static  Map<String, Widget Function(String name)>  asMap() => const {
+    {{ range $index, $element := .}}
+"{{$index}}":{{$index|className}}.getIcon, {{ end }}
+    };
+}
