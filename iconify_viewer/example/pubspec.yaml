@@ -37,6 +37,8 @@ dependencies:
   cupertino_icons: ^1.0.6
   iconify_viewer:
     path: ../
+  get: ^4.6.6
+  string_similarity: ^2.1.1
 dev_dependencies:
   flutter_test:
     sdk: flutter

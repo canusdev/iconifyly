@@ -10,8 +10,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  get: ^4.6.6
   iconifyly:
     path: ../iconifyly/
+  string_similarity: ^2.1.1
 
 dev_dependencies:
   flutter_test:

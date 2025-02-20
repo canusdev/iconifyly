@@ -1,17 +1,33 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+// Iconyfy Copyright (c) 2024, Mustafa US. All rights reserved.
+// This code is licensed under AGPLv2 license (see LICENSE file for details)
+
 library iconifyly;
 
 import 'package:flutter/material.dart';
+import 'package:iconifyly/src/package_info.dart';
 {{ range $index, $element := .}}
-import "package:iconifyly/{{$index}}.dart";{{ end }}
+import "package:iconifyly/generated/{{$index}}.dart";{{ end }}
 
-class iconifyly {
-    static Widget icon(String name) {
-        var icons =  iconifyly.asMap();
+class Iconifyly {
+    static Widget icon(String name,{double? width,double? height,Color? color}) {
+        var icons =  Iconifyly.asMap();
         var namepref = name.split("/");
-        return icons[namepref[0]]!(namepref[1]);
+        return icons[namepref[0]]!(namepref[1],width:width,height:height,color:color);
     }
-static  Map<String, Widget Function(String name)>  asMap() => const {
+    static PackageInfo? info(String name) {
+        var fnc = Iconifyly.asMapInfo();
+        if (fnc.containsKey(name))
+            return fnc[name]!();
+        return null;
+    }
+static  Map<String, Widget Function(String name,{double? width,double? height,Color? color})>  asMap() => const {
     {{ range $index, $element := .}}
 "{{$index}}":{{$index|className}}.getIcon, {{ end }}
+    };
+    static  Map<String, PackageInfo Function()>  asMapInfo() => const {
+    {{ range $index, $element := .}}
+"{{$index}}":{{$index|className}}.packageInfo, {{ end }}
     };
 }

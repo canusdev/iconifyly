@@ -1,18 +1,42 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+// Iconyfy Copyright (c) 2024, Mustafa US. All rights reserved.
+// This code is licensed under AGPLv2 license (see LICENSE file for details)
+
+// {{.Info.Name}} {{.Info.Version}} icon package is licensed under {{.Info.License.Spdx}} {{.Info.License.URL}}, {{.Info.Author}}
+// 
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:flutter/material.dart';
+import "package:iconifyly/src/package_info.dart";
 
 class {{.Info.Name| className}} {
+static PackageInfo packageInfo() {
+    return PackageInfo.fromJson({{.|buildInfo}});
+}
 
-static Widget getIcon(String name) {
-    return {{.Info.Name| className}}.names[name]!;
+static Widget getIcon(String name,{double? width,double? height,Color? color}) {
+    return {{.Info.Name| className}}.names[name]!(width:width,height:height,color:color);
 }
 {{ $info := . }}
 {{ range $index, $element := .Icons}}
-static Widget {{$index|iconName}} = SvgPicture.string('<svg xmlns="http://www.w3.org/2000/svg" width="1em" viewBox="0 0 {{if gt $info.Width 0}}{{$info.Width}}{{else}}24{{end}} {{if gt $info.Height 0}}{{$info.Height}}{{else}}24{{end}}" height="1em" version="1.1">{{$element.Body|html}}</svg>');
+static Widget {{$index|iconName}}({double? width,double? height,Color? color}) { 
+       var svgStart = '<svg xmlns="http://www.w3.org/2000/svg" width="1em" viewBox="{{if gt $element.Top 0}}{{$element.Top}}{{else}}0{{end}} {{if gt $element.Left 0}}{{$element.Left}}{{else}}0{{end}} {{if gt $element.Width 0}}{{$element.Width}}{{else}}24{{end}} {{if gt $element.Height 0}}{{$element.Height}}{{else}}24{{end}}" height="1em" version="1.1">';
+    var body = "";
+    if({{$info.Info.Name| className}}.iconList.containsKey("{{$index}}")) {
+        body = {{$info.Info.Name| className}}.iconList["{{$index}}"]!;
+    }
+    return SvgPicture.string("$svgStart$body</svg>",width: width,height: height,colorFilter:color != null ? ColorFilter.mode(color!, BlendMode.srcIn) : null);
+    } 
 {{ end }}
-static Map<String,Widget> names  =   {
+
+static Map<String,Widget Function({double? width,double? height,Color? color})> names  =   {
 {{ range $index, $element := .Icons}}
     "{{$index}}":{{$index|iconName}},{{ end }}
+
+};
+static Map<String,String> iconList  =   {
+{{ range $index, $element := .Icons}}
+    "{{$index}}":'{{$element.Body|html}}',{{ end }}
 
 };
 }

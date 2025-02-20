@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:iconifyly/iconifyly.icon.dart';
+import 'package:iconifyly/iconifyly.dart';
 
 void main() {
   runApp(const MyApp());
@@ -106,7 +106,7 @@ class _MyHomePageState extends State<MyHomePage> {
           // wireframe for each widget.
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Iconifyly.getIcon("material-symbols/123",
+            Iconifyly.icon("material-symbols/123",
                 height: 32, width: 32, color: Colors.amber.withAlpha(255)),
             const Text(
               'You have pushed the button this many times:',
